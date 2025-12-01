@@ -24,7 +24,7 @@ GRANT INSERT, SELECT ON users.* TO 'signup'@'localhost';
 
 GRANT SELECT ON users.* TO 'login'@'localhost';
 
-GRANT INSERT, DELETE, UPDATE ON items.* TO 'main'@'localhost';
+GRANT SELECT, INSERT, DELETE, UPDATE ON items.* TO 'main'@'localhost';
 GRANT SELECT ON users.* TO 'main'@'localhost';
 
 FLUSH PRIVILEGES;
